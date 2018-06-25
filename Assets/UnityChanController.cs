@@ -12,13 +12,13 @@ public class UnityChanController : MonoBehaviour {
     private Rigidbody myRigidbody;
 
     //前進するための力
-    private float forwardForce = 200.0f;
+    private float forwardForce = 800.0f;
 
     //左右に移動するための力
-    private float turnForce = 200.0f;
+    private float turnForce = 500.0f;
 
     //ジャンプするための力
-    private float upForce = 200.0f;
+    private float upForce = 500.0f;
 
     //左右の移動できる範囲
     private float movableRange = 3.4f;
