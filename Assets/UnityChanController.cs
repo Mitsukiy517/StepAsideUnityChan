@@ -169,11 +169,13 @@ public class UnityChanController : MonoBehaviour {
     //ジャンプボタンを押した場合の処理
     public void GetMyJumpButtonDown()
     {
+
         if (this.transform.position.y < 0.5f)
         {
             this.myAnimator.SetBool("Jump", true);
             this.myRigidbody.AddForce(this.transform.up * this.upForce);
         }
+
     }
 
 
